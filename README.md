@@ -1,6 +1,6 @@
 # USSD Gateways
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/africastalking/africastalking)](https://packagist.org/packages/africastalking/africastalking)
+[![Latest Stable Version](https://img.shields.io/packagist/v/kazeeem/ussd-gateways)](https://packagist.org/packages/kazeeem/ussd-gateways)
 
 > This package provides convenient template or start for creating USSD menu for different kinds of USSD Gateways - The following are the current USSD Gateway this library supports
 
