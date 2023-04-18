@@ -1,0 +1,22 @@
+{
+    "name": "kazeeem/ussd-gateways",
+    "description": "This is a library that gives you a preconfigured template of creating menus of various USSD gateways.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Kazeeem\\UssdGateways\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Kazeem Asifat",
+            "email": "asifatkazeem@yahoo.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
