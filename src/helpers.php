@@ -26,7 +26,7 @@ function checkPromptForError($className, $string, $start)
     }
 }
 
-function startUserPrompt($class, $string): string
+function startATPrompt($class, $string): string
 {
     try {
         return checkPromptForError($class, $string, true);
@@ -36,7 +36,7 @@ function startUserPrompt($class, $string): string
     }
 }
 
-function endUserPrompt($class, $string): string
+function endATPrompt($class, $string): string
 {
     try {
         return checkPromptForError($class, $string, false);

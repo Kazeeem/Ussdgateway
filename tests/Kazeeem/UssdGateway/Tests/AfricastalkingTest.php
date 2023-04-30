@@ -47,7 +47,7 @@ class AfricastalkingTest extends TestCase
         $string = "Testing prompting formulation";
 
         $original = checkPromptForError($class, $string, true);
-        $function_to_test = startUserPrompt($class, $string);
+        $function_to_test = startATPrompt($class, $string);
 
         $this->assertSame($original, $function_to_test);
     }
